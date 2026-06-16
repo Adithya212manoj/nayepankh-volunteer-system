@@ -77,7 +77,7 @@ nayepankh
 ```
 
 *. Click **Import**.
-*. Select the provided SQL file (`nayepankh.sql`).
+*. Select the provided SQL file (`nayepankh_volunteer_db.sql`).
 *. Click **Go**.
 
 4. Configure Database Connection
