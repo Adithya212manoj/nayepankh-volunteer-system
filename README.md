@@ -9,7 +9,7 @@ NayePankh is a web-based Volunteer Engagement and Event Management Portal develo
 ## 🚀 Live Demo
 
 **Website:**
-[https://your-live-url.freedev.app](https://nayepankh-volunteer.freedev.app/)
+[Live Demo](https://nayepankh-volunteer.freedev.app/)
 
 ## 🛠️ Technologies Used
 
@@ -138,7 +138,7 @@ admin123
 This project has been deployed using **InfinityFree Hosting**.
 
 Live URL:
-[https://your-live-url.freedev.app](https://nayepankh-volunteer.freedev.app/)
+[Live Demo](https://nayepankh-volunteer.freedev.app/)
 
 ---
 
