@@ -1,0 +1,256 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8FAFC;
+}
+
+.hero{
+    background: linear-gradient(
+        135deg,
+        #4A7C59,
+        #6B9B5E
+    );
+
+    color: white;
+    padding: 120px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 20px auto 30px;
+}
+
+/* Primary Button */
+.btn-success{
+    background-color: #FDF6EC;
+    color: #4A7C59;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.btn-success:hover{
+    background-color: #F7E8D0;
+    color: #3B6446;
+    transform: translateY(-3px);
+}
+
+/* Learn More Button */
+.btn-outline-light{
+    border: 2px solid #d2bb9b;
+    color: #FDF6EC;
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover{
+    background-color: #c4d9be;
+    color: #4A7C59;
+    transform: translateY(-3px);
+}
+
+/* Impact Cards */
+.impact-card{
+    background-color: rgb(170, 208, 164);
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.impact-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(20, 51, 17, 0.12);
+}
+
+.impact-card h2{
+    color: #4A7C59;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.impact-card p{
+    color: #6B7280;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+/* Why Volunteer Cards */
+.why-card{
+    background-color: rgb(171, 206, 160);
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.why-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.why-card i{
+    color: #4A7C59;
+}
+
+.why-card h5{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.why-card p{
+    color: #6B7280;
+    margin-bottom: 0;
+}
+
+.registration-section{
+    background-color: #8bd098;
+    min-height: 100vh;
+}
+
+.registration-card{
+    max-width: 850px;
+    background: rgb(233, 255, 235);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.section-title{
+    color: #4A7C59;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F3F4F6;
+}
+
+.form-control,
+.form-select{
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color: #4A7C59;
+    box-shadow: 0 0 0 0.2rem rgba(74,124,89,0.2);
+}
+
+.admin-login-bg{
+    background: linear-gradient(
+        135deg,
+        #4A7C59,
+        #355E3B
+    );
+
+    min-height: 100vh;
+}
+
+/* Admin Sidebar */
+
+.admin-sidebar{
+    width: 250px;
+    min-height: 100vh;
+    background-color: #355E3B;
+    color: white;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.admin-sidebar h4{
+    font-weight: 700;
+}
+
+.admin-sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.admin-sidebar a:hover{
+    background-color: rgba(255,255,255,0.15);
+}
+
+.admin-content{
+    margin-left: 270px;
+    padding: 40px;
+}
+
+/* View */
+.btn-view {
+    background-color: #FDF6EC !important;
+    color: #4A7C59 !important;
+    border: 1px solid #4A7C59 !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.btn-view:hover {
+    background-color: #F7E8D0 !important;
+    color: #3B6446 !important;
+}
+
+/* Approve */
+.btn-approve {
+    background-color: #4A7C59 !important;
+    color: white !important;
+    border: none !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.btn-approve:hover {
+    background-color: #3B6446 !important;
+    color: white !important;
+}
+
+/* Deactivate */
+.btn-deactivate {
+    background-color: #D4A373 !important;
+    color: white !important;
+    border: none !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.btn-deactivate:hover {
+    background-color: #BC8A5F !important;
+    color: white !important;
+}
+
+/* Delete */
+.btn-delete {
+    background-color: #C97C5D !important;
+    color: white !important;
+    border: none !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.btn-delete:hover {
+    background-color: #B56551 !important;
+    color: white !important;
+}
