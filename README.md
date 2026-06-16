@@ -1,150 +1,152 @@
-=> NayePankh Volunteer Engagement & Event Management Portal
+# 🌿 NayePankh Volunteer Engagement & Event Management Portal
 
-->Project Overview
+## 📌 Project Overview
 
 NayePankh is a web-based Volunteer Engagement and Event Management Portal developed using PHP and MySQL. The system allows volunteers to register, manage their profiles, browse events, and participate in volunteering activities. Administrators can manage volunteers, create events, monitor participation, and generate reports.
 
 ---
 
-->Technologies Used
+## 🚀 Live Demo
 
-* PHP
-* MySQL
-* HTML
-* CSS
-* Bootstrap 5
-* JavaScript
-* XAMPP
+**Website:**
+https://your-live-url.freedev.app
 
 ---
 
---> Features
+## 🛠️ Technologies Used
 
--> Public Module
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript
+* XAMPP (Local Development)
+* InfinityFree (Deployment)
 
-* Homepage
+---
+
+## ✨ Features
+
+### 👥 Volunteer Module
+
 * Volunteer Registration
-* Volunteer Login
-
--> Volunteer Module
-
-* Login and Logout
+* Volunteer Login & Logout
 * Volunteer Dashboard
 * View Profile
 * Edit Profile
 * Upload Profile Picture
 * Browse Upcoming Events
 * Join Events
-* View Joined Events
+* View Joined Events (My Events)
 
--> Admin Module
+### 🛡️ Admin Module
 
-* Admin Login and Logout
-* Dashboard with Statistics
+* Admin Login & Logout
+* Dashboard with Volunteer Statistics
 * Volunteer Management
 * Search Volunteers
-* Approve / Deactivate Volunteers
+* Approve Volunteers
+* Deactivate Volunteers
+* Delete Volunteers
 * View Volunteer Details
 * Event Management
-* Create Events
+* Create New Events
 * View Event Participants
 * Reports and CSV Export
 
 ---
 
---> Installation Guide
+## 📂 Project Structure
 
-1. Clone or Download the Project
+admin/
+assets/
+config/
+includes/
+uploads/
+volunteer/
+index.php
+README.md
+nayepankh.sql
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Clone or Download the Project
 
 Place the project folder inside:
 
 C:\xampp\htdocs\
 
-2. Start XAMPP
+### 2. Start XAMPP
 
 Start the following services:
 
 * Apache
 * MySQL
 
-3. Import the Database
+### 3. Import the Database
 
 1. Open phpMyAdmin.
 2. Create a database named:
 
-```
 nayepankh
-```
 
-*. Click **Import**.
-*. Select the provided SQL file (`nayepankh_volunteer_db.sql`).
-*. Click **Go**.
+3. Click **Import**.
+4. Select the provided SQL file:
 
-4. Configure Database Connection
+nayepankh.sql
+
+5. Click **Go**.
+
+### 4. Configure Database Connection
 
 Open:
 
-```
 config/db.php
-```
 
 Update the database credentials if required.
 
-5. Run the Project
+### 5. Run the Project
 
 Open your browser and visit:
 
 Public Website:
-
-```
 http://localhost/nayepankh-volunteer-system/
-```
-
-Admin Login:
-
-```
-http://localhost/nayepankh-volunteer-system/admin/login.php
-```
 
 Volunteer Login:
-
-```
 http://localhost/nayepankh-volunteer-system/volunteer/login.php
-```
+
+Admin Login:
+http://localhost/nayepankh-volunteer-system/admin/login.php
 
 ---
 
-## Demo Admin Credentials
+## 🔑 Demo Admin Credentials
 
 Email:
-
-```
-admin@nayepankh.org
-```
+[admin@nayepankh.org]
 
 Password:
-
-```
 admin123
-```
 
-**Note:** Replace these with the actual admin credentials stored in  database.
+> Replace the above credentials with the actual admin credentials stored in your database before publishing.
+
+---
+
+## 🌍 Live Deployment
+
+This project has been deployed using **InfinityFree Hosting**.
+
+Live URL:
+[https://your-live-url.freedev.app](https://nayepankh-volunteer.freedev.app/)
 
 ---
 
-## Project Structure
 
-```
-admin/
-volunteer/
-assets/
-config/
-includes/
-uploads/
-index.php
-nayepankh.sql
-README.md
-```
 
----
+## 🎓 Developed By
+
+**Adithya manoj**
 
